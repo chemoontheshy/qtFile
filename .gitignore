@@ -1,7 +1,8 @@
-
+﻿
 #bin文件
 learnQt/bin/*
 #
 learnQt/build/debug
 learnQt/build/release
 Makefile*
+build-*

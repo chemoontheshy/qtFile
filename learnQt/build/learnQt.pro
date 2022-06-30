@@ -1,9 +1,12 @@
 # -------------------------------------------------
 # Project created by QtCreator 2022-06-28T14:42:58
 # -------------------------------------------------
+#module
 QT += network \
     sql \
-    xml \
+    xml
+QT += core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = learnQt
 TEMPLATE = app
 SOURCES += ../src/main.cpp \
@@ -17,4 +20,6 @@ FORMS += ../src/mainwindow.ui
 # Éú³ÉexeÂ·¾¶
 CONFIG += debug_and_release
 CONFIG(debug,debug|release)
-:DESTDIR = ../bin/Debug
+{
+    DESTDIR = ../bin/Debug
+}
